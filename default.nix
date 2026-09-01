@@ -1,6 +1,6 @@
-let
-  pkgs = import <nixpkgs> { };
-in
+{
+  pkgs ? import <nixpkgs> { }
+}:
 pkgs.haskellPackages.developPackage {
   root = ./.;
 }
