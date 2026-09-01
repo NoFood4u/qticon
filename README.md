@@ -3,7 +3,8 @@ This app allows you to quickly and conviniently search up emoticons (= ↀωↀ=
 
 # Installation
 Currently not in any package repos (┰ω┰) download a release or build it yourself. If this gets any users i'll try to convince some repo maintainers to let me add this (*≧U≦)♡
-NixOS:
+
+### NixOS
 Put this in your environment.systemPackages
 ```nix
 (import (pkgs.fetchFromGitHub {
